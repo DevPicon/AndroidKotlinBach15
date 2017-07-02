@@ -7,17 +7,13 @@ import android.widget.Toast
 /**
  * Created by Armando on 30/6/2017.
  */
-class ResultActivity : AppCompatActivity(){
+class ResultActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.result_activity)
 
         val name = intent.getStringExtra("name")
-
-        val extras = intent.extras
-        var name2 : String = extras.getString("name")
-
         Toast.makeText(this@ResultActivity, "Se recibió $name!!", Toast.LENGTH_SHORT).show()
     }
 
