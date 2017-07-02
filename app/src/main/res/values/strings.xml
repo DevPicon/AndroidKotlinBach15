@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Kotlin Application</string>
+    <string name="escogerApp">Elegir app</string>
+    <string name="abrirSV">Abrir Street View</string>
+    <string name="llamada">Llamada</string>
+    <string name="link">Abrir Enlace</string>
+</resources>
